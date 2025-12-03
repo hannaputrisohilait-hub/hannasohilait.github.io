@@ -1,0 +1,170 @@
+/* Reset CSS */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    text-align: rigth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2a90a;
+    color: #f6fcff;
+}
+
+*   {
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #e7a740;
+    color: #f0eeee;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Navigasi */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #a4a798;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ebe7e3;
+}
+
+/* Konten Utama */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeece9;
+    color: #0c0800;
+}
+
+/* Gaya untuk tautan navigasi */
+nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #312e27;
+    background-color: #e4b143;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #e6e4e0;
+}
+
+/* Gaya untuk gambar di galeri */
+.hanna {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.img-card {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #e7178a4d;
+    object-fit: cover; /* menjaga aspek rasio gambar */
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 2rem;
+    background-color: #bb7b3f;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(241, 151, 33, 0.1);
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #e78a11;
+    color: #130b01;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {  
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-box {
+    width: 45%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100px;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+table th, table td {
+    padding: 6px 8px;
+    text-align: left;
+}
+
+.rigt {
+    text-align: right;
+}
+
